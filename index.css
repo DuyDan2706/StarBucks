@@ -1,0 +1,180 @@
+ /* GLOBAL */
+
+ * {
+     box-sizing: border-box; 
+     /* float giữ nguyên khoảng cách giúp ko cho bị rớt hàng  */
+ }
+ html,body{
+     font-size: 14 px;
+      font-family: Nunito;
+    }
+    .clear{
+        clear: both;
+    }
+ 
+
+/* HEADER  */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_left{
+    float: left;
+    
+}
+.header_left button{
+    background-color:  #2BBEF9;
+   color: white ;
+   height: 43px;
+   width: 205px;
+   left: 135px;
+   top: 30px;
+   border-radius: 25.5px;
+     
+}
+.header_right ul {
+    float: right;
+    list-style: none;
+}
+.header_right ul li {
+display: inline;
+
+}
+.header_right ul a {
+ text-decoration: none;
+ /* xóa đường gạch chân */
+ color:  #000000;
+ text-transform: uppercase;
+ /* In hoa chữ lên */
+ height: 19px;
+width: 42px;
+left: 1112px;
+top: 42px;
+margin: 0 10px;
+
+}
+
+/* INTRO  */
+.intro_tren  {
+    float: left ;
+    width: 50%;
+}
+.intro_tren_trai,.intro_tren_phai{
+    float: left ;
+    width: 50%;
+}
+.intro_tren img{
+    width: 100%;
+    display: block;
+}
+.intro_tren .intro_tren_trai{
+    height: 340px;
+width: 255px;
+left: 135px;
+top: 134px;
+border-radius: 10px;
+position: absolute;
+}
+.intro_tren .intro_tren_phai{
+    height: 248px;
+    width: 885px;
+    left: 420px;
+    top: 134px;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+/* PRODUCT */
+.product  {
+    float: left ;
+    width: 50%;
+}
+.product_left{
+    float: left ;
+    width: 50%;
+}
+ .product_right{
+    float: left ;
+  
+    display: flex;
+
+}
+ 
+.product img{
+    width: 100%;
+    display: block;
+}
+ .product_left{
+    height: 330px;
+    width: 255px;
+    left: 135px;
+    top: 504px;
+    border-radius: 10px;
+    position: absolute;
+    }
+    .product_right_item{
+    margin-right: 30px;
+    width:  199px;
+    height: 305px;
+    left: 420px;
+    top: 411px;
+    padding-left: 15px;
+    border: 1px solid #D5D5D5;
+box-sizing: border-box;
+border-radius: 10px;
+    position: relative;
+    /* padding-right: 48px; */
+  }
+  .product_right_item h3{
+  font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 18px;
+    margin-bottom: 40px;
+  }
+  .product_right_item p{
+
+font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+color: #00B853;
+
+  }
+  .product_right_item img{
+text-align: center;
+width: 169px;
+      }
+  #add_item{
+    background: #00B853;
+    border-radius: 0px 0px 10px 10px;
+   height: 39px;
+   line-height: 39px;
+    text-align:  center;
+    padding-left: 0px;
+    margin: 0px;
+      }
+      .flex-container {
+        display: flex;
+        left: 430px;
+top: 814px;
+position: absolute;
+margin-top: -10px;
+      }
+      
+      .flex-container > div {
+        border: 1px solid #D5D5D5;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 20px;
+         text-align: center;
+        width: 30px;
+        height: 30px;
+      }
+    
+
